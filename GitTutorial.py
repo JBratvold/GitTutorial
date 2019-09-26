@@ -19,7 +19,7 @@
 # 5. After adding changes to the staging area, commit the changes (use -m "MESSAGE" for message):
 #       git commit -m "THIS IS MY COMMIT MESSAGE"
 
-# 6. To get the most up to date copy from your local Git (NOT FROM GITHUB) use:
+# 6. To get the most up to date copy from the previous local commit (NOT FROM GITHUB) use:
 #       git checkout -- .
 #
 #
