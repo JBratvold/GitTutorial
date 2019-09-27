@@ -22,6 +22,7 @@
 # 6. To get the most up to date copy from the previous local commit (NOT FROM GITHUB) use:
 #       git checkout -- .
 #
+# 7. DID THIS GET CHANGED?
 #
 #
 print("Hello World")
