@@ -1,4 +1,3 @@
-
 # GIT TUTORIAL
 #
 # =========== SETUP ===============
@@ -37,7 +36,28 @@
 # 6. To get the most up to date copy from the previous local commit (NOT FROM GITHUB) use:
 #       git checkout -- .
 #
-# 7. DID THIS GET CHANGED?
+
+#  ============== PUTTING STUFF TO REMOTE REPOSITORY (GITHUB) =================
+# 1. After adding to stage area, and committing changes locally (#3,#4,#5), pull from the remote repository
+#    to make sure your current copy is up-to-date:
+#       git pull <name of repository> <branch of repository>
+#       git pull origin master
 #
+# 2. After pulling the most up-to-date copy, you can now PUSH your files into the remote repository
+#       git push <name of repository> <branch of repository>
+#       git push origin master
+
+# ============== CREATING A BRANCH FOR DESIRED PROGRAM FEATURE ====================
+# 1. Create a branch from the repository:
+#       git branch <desired branch name>
+#       git branch ChatProgram_SaveTextInputs
 #
+# 2. Checkout a branch to work on
+#       git checkout <branch name>
+#       git branch ChatProgram_SaveTextInputs
+#
+# 3. To see all the branches you have locally (If it has a *, that's the one you're working on currently)
+#       git branch
+#
+
 print("Hello World")
