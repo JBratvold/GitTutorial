@@ -8,7 +8,7 @@
 # 2. A) Create a repository:
 #       git init
 #    B) Clone an existing repository from GitHub (This is the most common):
-#       git clone https://github.com/SOMEONES_NAME/SOMEONES_PROJECT
+#       git clone https://github.com/SOMEONES_NAME/SOMEONES_PROJECT.git
 
 # 3. Check the changes made:
 #       git status
