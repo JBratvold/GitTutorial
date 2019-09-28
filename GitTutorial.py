@@ -57,7 +57,24 @@
 #       git branch ChatProgram_SaveTextInputs
 #
 # 3. To see all the branches you have locally (If it has a *, that's the one you're working on currently)
-#       git branch
+#       git branch -a
 #
+# 4. Push a branch to the repository
+#       git push -u <name of repository> <name of branch>
+#       git push -u origin ChatProgram_SaveTextInputs
+
+# ============== MERGE A BRANCH WITH MASTER BRANCH ====================
+# This is what you will do after working locally with your code, and ready to merge it to the "Final" Program
+# 1. First, need to checkout the master branch:
+#       git checkout master
+# 2. Pull down the most recent up-to-date copy of master before we merge our copy into master
+#       git pull origin master
+# 3. Merge the branch you've been working on to the remote master branch
+#       git merge <name of branch>
+#       git merge ChatProgram_SaveTextInputs
+# 4. Push those changes to the remote master
+#       git push origin master
+
+# ================ DELETING A BRANCH (WHEN IT'S FINISHED BEING WORKED ON OF COURSE) =============
 
 print("Hello World")
