@@ -76,5 +76,12 @@
 #       git push origin master
 
 # ================ DELETING A BRANCH (WHEN IT'S FINISHED BEING WORKED ON OF COURSE) =============
+# 1. Delete a local branch
+#       git branch -d <name of local branch>
+#       git branch -d ChatProgram_SaveTextInputs
+#
+# 2. Delete branch Remotely (on GitHub)
+#       git push <name of repository> --delete <name of remote branch>
+#       git push origin --delete ChatProgram_SaveTextInputs
 
 print("Hello World")
